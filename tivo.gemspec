@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.version     = Tivo::VERSION
   s.authors     = ["Kevin W. Gisi"]
   s.email       = ["kevin@kevingisi.com"]
-  s.homepage    = "TODO"
+  s.homepage    = "http://github.com/gisikw/tivo"
   s.summary     = "A convention-based web-request stubbing mechanism."
   s.description = "A convention-based web-request stubbing mechanism."
 
