@@ -1,0 +1,17 @@
+= Tivo
+
+A VCR-inspired convention-based web-request stubbing mechanism.
+
+== ALPHA ALPHA ALPHA Disclaimer
+
+This gem is alpha. Very alpha. It should not be used in production. It should not be used as an example of "clean code" or "best practices". It is under heavy development, and may change, be refactored, be completely removed, at a moment's notice. The author disavows any responsibility if your code breaks via its use. Be very certain you know what you're doing if you look at this code - it is, to repeat, alpha.
+
+== Installation
+
+In your Gemfile, add:
+  
+  gem "tivo"
+
+== Copyright
+
+Copyright (c) 2012 Kevin W. Gisi. See MIT-LICENSE for details.
