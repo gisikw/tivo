@@ -1,10 +1,10 @@
 module Tivo::Hooks
   def without_tivo
-    Tivo.disable!
+    Tivo::Config.disable!
     begin
       yield
     ensure
-      Tivo.enable!
+      Tivo::Config.enable!
     end
   end
 end

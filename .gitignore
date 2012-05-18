@@ -3,3 +3,4 @@ log/*.log
 pkg/
 *.sw?
 .DS_Store
+recordings/

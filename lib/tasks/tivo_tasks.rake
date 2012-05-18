@@ -1,4 +1,7 @@
-# desc "Explaining what the task does"
-# task :tivo do
-#   # Task goes here
-# end
+namespace :tivo do
+  desc "Record any missing web requests"
+  task :record do
+    require_relative '../tivo'
+    Tivo::Cache.fetch_records!
+  end
+end
